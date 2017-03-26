@@ -1,2 +1,0 @@
-# aakuproject
-my first project
