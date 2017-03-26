@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+
+<head>
+  <title>Restaurant & Bar</title>
+<style>
+    body{
+        margin: 0 auto;
+       max-width: 500;
+        background: url("http://www.streamsongresort.com/wp-content/uploads/2014/05/fifty-nine-restaurant-bar-fine-golf-resort-dining.jpg");
+        background-repeat: no-repeat;
+        background-position: justify;
+        background-size: cover;
+        position: relative;
+    }
+    ul{
+        list-style-position: inside;
+        margin: inherit;
+        background: #3399ff;
+        background: linear-gradient(bottom,rgba(255,123,0,1),rgba(0,0,0,.4));
+        background: -webkit-linear-gradient(bottom,rgba(255,123,0,1),rgba(0,0,0,.4));
+        background: -moz-linear-gradient(bottom,rgba(255,123,0,1),rgba(0,0,0,.4));
+        color: white;
+        
+    }
+    div{
+        
+        font-size: 40px;
+        background-size: cover;
+        position: relative;
+        padding: 10 0 10 0;
+        
+        }
+    .first{
+        background-image: url("http://www.manjulaskitchen.com/blog/wp-content/uploads/everyday-lunch-menu.jpg");
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        margin: 0 auto;
+        max-width: 1000px;
+         border-radius: 20px;
+    }
+    .second{
+background-image: url("http://mediaresources.idiva.com/media/photogallery/2013/Dec/recipes_idivas_irresistible_non_veg_snacks_for_the_party_season.jpg");
+     height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+          margin: 0 auto;
+        max-width: 1000px;
+         border-radius: 20px;
+           
+    }
+    .third{
+       background-image:  url("http://www.differencebetween.info/sites/default/files/images/5/shakes.jpg");
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+          margin: 0 auto;
+        max-width: 1000px;
+         border-radius: 20px;
+    }
+    .fourth{
+        background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ81qXkOigeHzJ2nLTASAhdyg0t0QlDG60Ssqcnbw6J05HPLVR-");
+    height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+         margin: 0 auto;
+        max-width: 1000px;
+         border-radius: 20px;
+    }
+    
+   
+ .price{
+        float: right;
+     
+    }
+    header{
+        color: red;
+    }
+     
+    h1{
+        
+        text-align: center;
+        font-family: 'Londrina Solid', cursive;
+        color: yellow;
+    
+    }
+    b:hover
+    {
+        color: mediumspringgreen;
+        font-size: 80px;
+    }
+
+
+    small{
+        line-height: 40px;
+         }
+    
+
+</style>
+</head>
+
+<body>
+    
+    
+<h1 style="font-size: 60px">Restaurant and Bar </h1>
+    
+    
+   <div class="first show-description">
+       <header>
+           <h2>VEG.</h2>
+       </header>
+       <a>
+    <b>Menu</b>
+       
+
+    <ul style="list-style-type:circle">
+        
+        <li>Dal Makhni <span class="price">Rs200</span></li>
+        <li>Palak Paneer <span class="price">Rs220</span></li>
+        <li>Butter Paneer <span class="price">Rs350</span></li>
+    </ul>
+       </a>
+       
+   </div>
+    
+    
+   <div class="second">
+    <header>
+        <h2>NON.VEG</h2>
+       </header>
+       <a>
+        <b>Menu</b>
+       
+    
+    <ul style="list-style-type:square">
+       
+        <li>Tandoori Chicken <span class="price">Rs380</span></li>
+        <li>Butter Chicken <span class="price">Rs400</span></li>
+        <li>Chicken Lolipop <span class="price">Rs450</span></li>
+    </ul>
+    
+       </a>
+   </div>
+    
+    
+  <div class="third">
+   <header>
+       <h2>SOFT DRINK</h2>
+      </header>
+      <a>
+       <b>Menu</b>
+      
+      
+   <ul style="list-style-type:circle">
+      
+       <li>Mango shake <span class="price">Rs60</span></li>
+       <li>Chocolate Shake <span class="price">Rs80</span></li>
+       <li>Banana Shake <span class="price">Rs60</span></li>
+   </ul> 
+      
+      </a>
+    </div>
+    
+    
+  <div class="fourth">
+   <header>
+       <h2>HARD DRINK</h2>
+      </header>
+      <a>
+       <b>Menu</b>
+      
+      
+    <ul style="list-style-type:square">
+       
+        <li>Vodka <span class="price">Rs100</span></li>
+        <li>Whisky <span class="price">Rs150</span></li>
+        <li>Beer <span class="price">Rs220</span></li>
+        </ul>
+      </a>
+      
+    </div>
+    
+    
+    <script>
+    $("div").on("click",function(){
+    $(this).toggleClass('show-description');    
+    });
+    
+    </script>
+
+</body>
